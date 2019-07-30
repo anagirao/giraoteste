@@ -1,0 +1,65 @@
+body{
+    
+    background-color:blue;
+    background-image: url("https://66.media.tumblr.com/1c3110705b1f7ba572b8acf04a5870a3/tumblr_p5a1xjvdAZ1ul90j7o5_250.jpg");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    color:white;
+  font-variant: small-caps;
+  
+  
+}
+.inicial{
+    width: 400px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px solid whitesmoke;
+
+}
+    
+ 
+.box{
+border: 1px solid black;
+width: 100%;
+height: 300px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+ }
+.post1{
+background-color: whitesmoke;
+  width: 300px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  border: 3px solid black;
+  height: 200px;
+  color: black
+  
+}
+ .post2{
+   background-color: whitesmoke;
+  width: 300px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  border: 3px solid black;
+  height: 200px;
+  color: black;
+ }
+ .final{
+   background-color: whitesmoke;
+  width: 300px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  border: 3px solid black;
+height: 200px;
+color: black;
+ }
+ 
+ @media only screen and ( max width: 430px) /* para ajustar a tela no celular */ 
+ {
+   .box{
+     flex-direction: column;
+     justify-content: space-around;
+   }
+ }
