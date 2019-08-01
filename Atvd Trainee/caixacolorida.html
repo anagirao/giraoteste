@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atividade 3</title>
+    <style>
+ .box{
+     
+height:500px ; /* caixa */
+width:500px ;
+border: 2px solid black;
+
+ }   
+    </style>
+</head>
+<body>
+<div>
+    <center>
+            <form name="cores"> 
+                    <button type="button" name="campo" onclick="mudarCor();">Vermelho<br>
+                    <button type="button" name="campo1" onclick="mudarCor1();">Verde<br>
+                    <button type="button" name="campo2" onclick="mudarCor2();">Azul<br>
+                
+                    </form>
+                    </div>
+                </center>
+                <center>
+    <div id ="box" class="box">
+         </div>
+      </center>
+        <script>
+            //funcoes para mudar a cor
+            function mudarCor(){
+         document.getElementById("box").style.backgroundColor = 'red'; 
+ }
+           function mudarCor1(){
+               document.getElementById("box").style.backgroundColor = 'green';
+
+           }
+function mudarCor2(){
+    document.getElementById("box").style.backgroundColor = 'blue'
+}
+            </script>
+
+    
+
+    
+</body>
+</html>
